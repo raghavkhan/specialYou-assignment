@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpecialYou/signIn</title>
+    <link rel="stylesheet" href="signIn.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- default form (signIn) -->
+      <div class="form-signIn">
+        <form class="signIn">
+          <input type="text" class="fullName" placeholder="enter your name"/>
+          <input type="email" class="email" placeholder="enter your email Id"/>
+          <input type="number" class="phone" placeholder="enter your phone"/>
+        </form>
+        <button class="signIn-button" type="submit"> Sign Up </button>
+        <div class="message-signIn">
+          <div class="question">Already have an account?</div>
+          <div class="login-link">Login</div>
+        </div>
+      </div>
+
+      <!-- Login form -->
+      <div class="form-login hidden">
+        <form class="login">
+          <input type="number" class="phone-login" placeholder="enter your phone"/>
+          <input type="password" class="password" placeholder="enter your password"/>
+        </form>
+        <button class="login-button" type="submit"> Login </button>
+        <div class="message-login">
+          <div class="questionAgain">Go back to signIn ?</div>
+          <div class="signIn-link">Sign In</div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="signIn.js"></script>
+  </body>
+</html>

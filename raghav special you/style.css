@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.navbar{
+    border:2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:2.5rem;
+    font-size:1.2rem;
+
+
+}

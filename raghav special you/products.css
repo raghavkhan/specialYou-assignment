@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    /* height:100vh; */
+}
+
+/* company logo */
+.companyLogo{
+    font-style: "Monotype-Corsiva";
+    font-size: 2.5rem;
+}
+
+
+/* products navbar */
+.products-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:2.5rem;
+    font-size:1.2rem;
+    background-color:black;
+    color:white;
+}
+
+
+/* products homePage */
+.home{
+    display:flex;
+    justify-content: space-around;
+    margin-top:3rem;
+}
+.textContainer{
+    height:27rem;
+    width:32rem;
+    background-color:#c2255c;
+    color:whitesmoke;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+.image{
+    background:url(./specialImages/productsHome.webp);
+    background-size: cover;
+    height:27rem;
+    width:32rem;
+}
+
+
+/* products anniversary page */
+.anniversaryPage{
+    display: flex;
+    /* height:30rem; */
+    height: 100vh;
+    width:85.3rem;
+    border:2px solid black;
+    justify-content: space-around;
+    align-items: center;
+}
+.compo{
+    border:2px solid red;
+    height:22rem;
+    width:17rem;
+    display: flex;
+    flex-direction:column;
+    font-family: sans-serif;
+}
+.browseHeading{
+font-size:1.5rem;
+border-bottom:2px solid red;
+margin:1.5rem;
+padding-left:1rem;
+}
+.buyProduct1{
+width:14rem;
+}
+
+.browseItems{
+    font-size:1rem;
+    display: flex;
+    flex-direction:column;;
+    gap:1rem;
+    border-left:1px solid black;
+    margin-left:1rem;
+    padding-left:0.5rem;
+}
+.image1{
+    background-image: url(./specialImages/goldBalloon1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height:18rem;
+    width:13rem;
+    /* border:2px solid yellow; */
+}
+
+.image2{
+    background: url(./specialImages/redBalloon1.webp);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:18rem;
+    width:16rem;
+    /* border:2px solid yellow; */
+}
+.action{
+    display:flex;
+    justify-content: space-between;
+    font-size:1rem;
+}
+.buy{
+    background-color: green;
+    color:white;
+}
+.cart{
+    background-color: green;
+    color:white;
+}
+
+
+/* Bootstrap popup section */
+.bootstrapPopupContainer{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 41rem
+}
+.bootstrapPopup{
+    background-color: #343a40;
+    height:28rem;
+    width:55rem;    
+}
+.carousel{
+    height:30rem;
+    width:50rem;
+}
+.carousel-control-prev-icon{
+    background-color: #343a40;
+}
+.carousel-control-next-icon{
+    background-color: #343a40;
+}
+
+
+
+/* popup section // sixth section */
+.parentPopup{
+    position:relative;
+}
+.popupContainer{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 41rem;
+    position: absolute;
+    bottom:1.5rem;
+    left:16rem;   
+}
+
+.popup{
+    /* border:2px solid black; */
+    height:38rem;
+    width:55rem;
+    display: flex;    
+}
+.image11{
+    /* border:2px solid orangered; */
+    background: url(./specialImages/redBalloon1.webp);
+    background-size: cover;
+    width: 27rem;
+    height: 28rem;
+}
+.content{
+    /* border:2px solid olivedrab; */
+    background-color: #c2255c;
+    width: 28rem;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-top:2rem;
+    margin-top: 4rem;
+}
+.addCart{
+    width:4rem;
+    font-size: 1rem;
+    border-radius:1rem;
+    padding: 0.2rem;
+    border:none;
+    background-color: black;
+    color:whitesmoke;
+}
+
+
+/* extra classes */
+
+.hidden{
+    display:none;
+}
+.blur{
+    filter: blur(2px);
+}
+
+

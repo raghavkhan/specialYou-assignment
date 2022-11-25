@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* holding complete web page */
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #63e6be;
+}
+
+/* holding complete form*/
+.form-signIn{
+    display:flex;
+    flex-direction: column;
+    border: 4px solid #087f5b;
+    background-color:#0ca678 ;
+    height:25rem;
+    width:18rem;
+     justify-content: center;
+    align-items: center;
+
+}
+
+/* form and three input */
+.signIn{
+    display: flex;
+    flex-direction: column;
+    /* border: 4px solid #087f5b; */
+    width: 15rem;
+    height: 8 rem;
+}
+.fullName{
+    height:1.8rem;
+}
+.email{
+    height:1.8rem;
+}
+.phone{
+    height:1.8rem;
+}
+
+/*submit button */
+.signIn-button{
+    /* border: 2px solid purple; */
+    width:15rem;
+    height:2rem;
+    font-size: 1rem;
+}
+
+/* question and login */
+.message-signIn{
+    display:flex;
+    /* border: 2px solid black; */
+    width: 15rem;
+    justify-content: space-between;
+}
+
+
+
+.form-login{
+    display:flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    height:25rem;
+    width:18rem;
+     justify-content: center;
+    align-items: center;
+
+}
+
+/* form and three input */
+.login{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    width: 15rem;
+    height: 8 rem;
+}
+.phone-login{
+    height:1.8rem;
+}
+.password{
+    height:1.8rem;
+}
+
+
+/*submit button */
+.login-button{
+    /* border: 2px solid purple; */
+    width:15rem;
+    height:2rem;
+    font-size: 1rem;
+}
+
+.message-login{
+    display:flex;
+    /* border: 2px solid black; */
+    width: 15rem;
+    justify-content: space-between;
+}
+
+
+
+.hidden{
+    display:none;
+}
